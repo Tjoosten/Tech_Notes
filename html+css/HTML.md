@@ -11,15 +11,15 @@ Contents:
 ## Basic Structure
 + structure
 ```html
-	<!DOCTYPE html>
-	<html>
-	  <head>
-	  	<title>My page</title>
-	  </head>
-	  <body>
-	  	<p>Hello World</p>
-	  </body>
-	</html>
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>My page</title>
+	</head>
+	<body>
+		<p>Hello World</p>
+	</body>
+</html>
 ```
 + tags
   - `<tagname>Contents</tagname>`
