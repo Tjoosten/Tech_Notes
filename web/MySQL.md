@@ -15,7 +15,7 @@
   - describe tables
   - examples of creating tables
 
-  ```
+  ```sql
      CREATE TABLE employees (
 		id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
 		first_name VARCHAR(30) NOT NULL,
@@ -28,28 +28,25 @@
   ```
 
 + Keys
-  - primary key (col1, col2, col3)
-  - unique key INDEX_NAME (col1, col2, col3)
-  - foreign key (col1, col2) references ANOTHER_TABLE(col1,col2)
-  - alter table TABLENAME add unique key INDEX_NAME (col1,col2)
-  - alter table TABLENAME add foreign key (col1, col2)
+  - `primary key (col1, col2, col3)`
+  - `unique key INDEX_NAME (col1, col2, col3)`
+  - `foreign key (col1, col2) references ANOTHER_TABLE(col1,col2)`
+  - `alter table TABLENAME add unique key INDEX_NAME (col1,col2)`
+  - `alter table TABLENAME add foreign key (col1, col2)`
 
 + State
   - insertion
-    + insert into employee (first_name, last_name) values ('Jing','Lu'), ('Alice', 'Wang')
+    + `insert into employee (first_name, last_name) values ('Jing','Lu'), ('Alice', 'Wang')`
   - update
-    + update employee set first_name='jing' where id=2
+    + `update employee set first_name='jing' where id=2`
   - delete
-    + delete from employee where id=1
+    + `delete from employee where id=1`
 
 + Selecting
-  - select * from TABLENAME
-  - select col1, col2 from TABLENAME
-  - select timestampdiff (second, joined, NOW()) as time_with_comp from employee
-  - select project_name, employee.first_name from projects join employee on (projects.employee_id=employee.id) group by employee.id
-  - select first_name from employee order by first_name asc limit 10
-  - select avg(scores) as average from players group by id having average>10
-  - select * from players where first_name like "T%"
-  
-
-
+  - `select * from TABLENAME`
+  - `select col1, col2 from TABLENAME``
+  - `select timestampdiff (second, joined, NOW()) as time_with_comp from employee`
+  - `select project_name, employee.first_name from projects join employee on (projects.employee_id=employee.id) group by employee.id`
+  - `select first_name from employee order by first_name asc limit 10`
+  - `select avg(scores) as average from players group by id having average>10`
+  - `select * from players where first_name like "T%"``
