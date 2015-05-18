@@ -17,7 +17,7 @@ Contents:
 + composed of rules
   - each rule has a selector and some declarations
   - example
-  ``` 
+  ```
     header{
        color: blue;
        font-family: Verdana, sans-serif;
@@ -84,7 +84,7 @@ Contents:
 + load external stylesheets
   - `<link rel="stylesheet" type="text/css" href="path/to/stylesheet.css"/>`
 + embed stylesheets in the document
-  ```
+  ```css
      <style type="text/css">
      styles{
         go : here;
@@ -92,8 +92,4 @@ Contents:
      </style>
   ```
 + inline styles using style attribute
-  - `<p style="color:red">Content</p>`   
-
-
-
-
+  - `<p style="color:red">Content</p>`
