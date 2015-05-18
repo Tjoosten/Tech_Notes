@@ -84,7 +84,7 @@ Contents:
 + load external stylesheets
   - `<link rel="stylesheet" type="text/css" href="path/to/stylesheet.css"/>`
 + embed stylesheets in the document
-  ```css
+  ```
      <style type="text/css">
      styles{
         go : here;

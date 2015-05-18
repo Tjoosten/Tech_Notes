@@ -21,7 +21,7 @@ Contents:
 	  </body>
 	</html>
 ```
-+ tags 
++ tags
   - `<tagname>Contents</tagname>`
   - void element: `<tagname />`
   - optional closing tag: `<p>`, `<tbody>`, `<li>`
@@ -45,7 +45,7 @@ Contents:
     - `<select name="name">` and `<option value="value">`
     - `<textarea name="">`
 
-+ external media 
++ external media
   - `<iframe src="source">`
   - `<link rel="what" type="mine" href="source">`
   - `<img src="source" alt="text"/>`
@@ -82,14 +82,13 @@ Contents:
 ## Forms
 + example
 
-  ```
-  `
+  ```html
     <form action="http://example.com/search" method="GET">
     	<label>Search: <input type="text" name="q" /></label>
     	<input type="submit" value="search"/>
     </form>
-
   ```
+	
 + HTTP request method
   - GET: transfer variables in the URL
   - POST: transfer variables as an HTTP header
@@ -106,11 +105,3 @@ Contents:
   - `checkbox`: yes or no checkbox
   - `radio`: multiple choices
   - `file`: allow file uploads
-
-
-
-
-
-
-
-
