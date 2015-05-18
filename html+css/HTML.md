@@ -10,7 +10,7 @@ Contents:
 
 ## Basic Structure
 + structure
-```
+```html
 	<!DOCTYPE html>
 	<html>
 	  <head>
@@ -83,12 +83,12 @@ Contents:
 + example
 
   ```html
-    <form action="http://example.com/search" method="GET">
-    	<label>Search: <input type="text" name="q" /></label>
-    	<input type="submit" value="search"/>
-    </form>
+  <form action="http://example.com/search" method="GET">
+    <label>Search: <input type="text" name="q" /></label>
+    <input type="submit" value="search"/>
+  </form>
   ```
-	
+
 + HTTP request method
   - GET: transfer variables in the URL
   - POST: transfer variables as an HTTP header
