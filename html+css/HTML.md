@@ -13,12 +13,12 @@ Contents:
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>My page</title>
-	</head>
-	<body>
-		<p>Hello World</p>
-	</body>
+  <head>
+    <title>My page</title>
+  </head>
+  <body>
+    <p>Hello World</p>
+  </body>
 </html>
 ```
 + tags
